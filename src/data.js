@@ -1,27 +1,27 @@
 window.data = {
 
-    filterData: (pokemones, condition) => {
-        let filtrada;
+    filterData: (pokemonData, condition) => {
+        let result;
         if (condition === "none") {
-            filtrada = pokemones;
+            result = pokemonData;
         } else {
-            filtrada = pokemones.filter(element => {
+            result = pokemonData.filter(element => {
                 if (element.type.includes(condition)) {
                     return element;
                 }
             });
         }
 
-        return filtrada;
+        return result;
 
     },
 
-    sortData: (pokemones, Order, sortBy) => {
-        let ordenada;
+    sortData: (pokemonData, Order, sortBy) => {
+        let ordered;
 
         if(sortBy === "name"){
                 if (Order === "a-z") {
-                ordenada = pokemones.sort((a, b) => {
+                ordered = pokemonData.sort((a, b) => {
                     if (a.name < b.name)
                         return -1;
                     else if (a.name > b.name)
@@ -30,7 +30,7 @@ window.data = {
                         return 0;
                 });
             } else if (Order === "z-a") {
-                ordenada = pokemones.sort((a, b) => {
+                ordered = pokemonData.sort((a, b) => {
                     if (a.name < b.name)
                         return 1;
                     else if (a.name > b.name)
@@ -43,7 +43,7 @@ window.data = {
 
         } else if(sortBy === "id"){
                     if (Order === '1-150' || Order === 'none') {
-                    ordenada = pokemones.sort((a, b) => {
+                    ordered = pokemonData.sort((a, b) => {
                         if (a.id < b.id)
                             return -1;
                         else if (a.id > b.id)
@@ -52,7 +52,7 @@ window.data = {
                             return 0;
                     });
                 } else if (Order === '150-1') {
-                    ordenada = pokemones.sort((a, b) => {
+                    ordered = pokemonData.sort((a, b) => {
                         if (a.id < b.id)
                             return 1;
                         else if (a.id > b.id)
@@ -63,7 +63,7 @@ window.data = {
                 }
         }
 
-        return ordenada;
+        return ordered;
 
 
     },

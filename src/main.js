@@ -1,21 +1,82 @@
-window.onload = inicializacion(POKEMON.pokemon);
-
-const pokemones1 = POKEMON.pokemon;
-let select = document.getElementById("select-tipo");//donde pondré los elementos que quiero manipular
-let select1 = document.getElementById("order");
-let resultadoFiltro;
-let selectSort = document.getElementById("select-orden");
 
 
+const pokemonData = POKEMON.pokemon;
+let searchBtn = document.getElementById('search');
+let logoInit = document.getElementById('logo-dexi');
+let firstScreen = '\
+                  <div class="row margin-welcome" >\
+                    <div class="col-md-6" >\
+                      <div class="pokemonImage" id="welcomeContainer" >\
+                      </div>\
+                    </div>\
+                    <div class="col-md-6" >\
+                      <div class="containerTitle">\
+                        <p class="font-title">BIENVENID@ A TU GUÍA POKÉMON</p>\
+                        <p class="font-subtitle">Comienza la busqueda de tu Pokémon favorito, tenemos todos sus detalles para que seas el mejor maestro Pokémon</p>\
+                      </div>\
+                    </div>\
+                    </div>';
 
+let secondScreen = '\
+                    <form>\
+                      <div class="form-row margin-select">\
+                        <div class="form-group col-md-3">\
+                          <label for="exampleFormControlSelect1">Seleccione el tipo de Pokémon:</label>\
+                          <select class="form-control" id="select-type" >\
+                            <option value= "none">Ninguno</option>\
+                            <option value="Poison">Poison</option>\
+                            <option value="Grass"> Grass </option>\
+                            <option value="Fire"> Fire</option>\
+                            <option value="Electric"> Electric</option>\
+                            <option value="Water"> Water</option>\
+                          </select>\
+                        </div>\
+                        <div class="form-group col-md-3">\
+                          <label for="exampleFormControlSelect1">Seleccione tipo de organización:</label>\
+                          <select class="form-control" id="select-by" >\
+                            <option value= "none">Ninguno</option>\
+                            <option value="name">Nombre</option>\
+                            <option value="id">Número</option>\
+                          </select>\
+                        </div>\
+                        <div class="form-group col-md-3">\
+                          <label for="order">Seleccione organización:</label>\
+                          <select class="form-control" id="order" >\
+                            <option value="none">Ninguno</option>\
+                            <option value="a-z">Alfabético Ascendente A-Z</option>\
+                            <option value="z-a">Alfabético Descendente Z-A</option>\
+                            <option value="1-150">Numérico Ascendente</option>\
+                            <option value="150-1">Numérico Descendente</option>\
+                          </select>\
+                        </div>\
+                        <div class="form-group col-md-2">\
+                          <button class="btn btn-primary font-nav btn-color" id="clean">Limpiar</button>\
+                        </div>\
+                      </div>\
+                    </form>\
+                    <div class="row">\
+                      <div class="col-md-12">\
+                        <div class="card-group">\
+                          <div class="row" id="id1">\
+                            <!-- Clase Dispositivo Medida\
+                            col-xs- móvil < 768 px\
+                            col-sm- tablets >= 768 px\
+                            col-md- desktop >= 992 px\
+                            col-lg- Desktop más grande  >= 1200 px -->\
+                          </div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  ';
 
+window.onload = document.getElementById('welcome').innerHTML= firstScreen;
 
-function inicializacion(lista) {
-  let texto = ''; // comienza con string vacío para que por cada iteracion se rellene
-  let elemento = document.getElementById("id1");
-  lista.forEach(function(element){ //for each para que por cada uno saque los datos 
+function showPokemonCard(dataToPrint) {
+  let text = ''; // comienza con string vacío para que por cada iteracion se rellene
+  let cardContainer = document.getElementById("id1");
+  dataToPrint.forEach(function(element){ //for each para que por cada uno saque los datos 
 
-  texto += '\
+  text += '\
       <div class="col-md-2">\
                  <div class="card" data-toggle="modal" data-target="#exampleModal'+element.id+'">\
                 <div class="modal fade" id="exampleModal'+element.id+'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">\
@@ -67,7 +128,7 @@ function inicializacion(lista) {
                   </div>\
                       </div>\
                       <h6 class="card-text">'+element.num+'</h6>\
-                <img src="'+element.img+'" class="card-img-top" alt="...">\
+                <img src="'+element.img+'" class="card-img-top card-img-poke" alt="...">\
                 <div class="card-body">\
                   <h5 class="card-title">'+element.name+'</h5>\
                   <p class="card-text">'+element.type+'</p>\
@@ -78,33 +139,60 @@ function inicializacion(lista) {
     '
               });
 
-    elemento.innerHTML = texto;
+    cardContainer.innerHTML = text;
 }
+searchBtn.addEventListener('click', () => {
 
-select.addEventListener('change', () => {
-     // comienza con string vacío para que por cada iteracion se rellene
+
+  document.getElementById('welcome').innerHTML="";
+  document.getElementById('welcome').innerHTML=secondScreen;
+  showPokemonCard(pokemonData);
+  let select = document.getElementById("select-type");
+  let selectOrder = document.getElementById("order");
+  let resultFilter;
+  let selectSort = document.getElementById("select-by");
+  let cleanBtn= document.getElementById('clean');
+    
+
+  select.addEventListener('change', () => {
+
     let condition = select.value;
-   resultadoFiltro = window.data.filterData(pokemones1, condition);
-   inicializacion(resultadoFiltro);
+    resultFilter = window.data.filterData(pokemonData, condition);
+    showPokemonCard(resultFilter);
     
-    
+    selectOrder.addEventListener('change', () => {
+      let sortOrder = selectOrder.value;
+      let sortBy = selectSort.value;
+
+      if (resultFilter === undefined) {
+        resultFilter = window.data.sortData(pokemonData, sortOrder, sortBy);
+        showPokemonCard(resultFilter);
+        
+      }
+      else{
+        resultFilter = window.data.sortData(resultFilter, sortOrder, sortBy);
+        showPokemonCard(resultFilter);
+        
+      }
+    cleanBtn.addEventListener('click', (event)=> {
+      event.preventDefault();
+      document.getElementById('select-type').value="none";
+      document.getElementById('select-by').value="none";
+      document.getElementById('order').value="none";
+      showPokemonCard(pokemonData);
+
+   
+
+      });
+    });
+  });
 });
 
 
 
-select1.addEventListener('change', () => {
-    let sortOrder = select1.value;
-     let sortPor = selectSort.value;
+logoInit.addEventListener('click', () =>{
 
-   if (resultadoFiltro === undefined) {
-    resultadoFiltro = window.data.sortData(pokemones1, sortOrder, sortPor);
-    inicializacion(resultadoFiltro);
-    console.log("entre a undefinded")
-  }
-  else{
-    resultadoFiltro = window.data.sortData(resultadoFiltro, sortOrder, sortPor);
-    inicializacion(resultadoFiltro);
-    console.log("entre a resultadoFiltro")
-  }
+  document.getElementById('welcome').innerHTML='';
+  document.getElementById('welcome').innerHTML= firstScreen;
+                                            
 });
-

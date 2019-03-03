@@ -1,100 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Data Lovers</title>
+  <title>DexiPoke</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="https://i.ibb.co/t31sMqg/Favball.png" sizes="32x32">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans|Raleway:400,600" rel="stylesheet">
   </head>
-  
   <body>
-    <div id="firstscreen">
-      <header class="col-md-12" >
-        <h1 id="pokehome" class=""><a href="index.html"><img src="https://i.ibb.co/Kcn7Kzr/DexiPoke.png" alt="fuente-pokemon" border="0"></a></h1>
-      </header>
-      <div style="padding: 4%">
-      <button class="btn btn-color">Busca tu Pokémon</button>
-      <button class="btn btn-color">Datos Curiosos</button>  
-      <button class="btn btn-color">Instrucciones</button> 
+
+
+  <header style="background-color: #3466AF;color: white; padding: 1%">
+    <div class="row">
+      <div class="col md-4 logo" id="logo-dexi"style="margin-left: 50px;margin-top: 5px">
+
       </div>
-    </div>
-    <section>
-      <div class="row">
-            <div class="col-md-12">
-                <nav id="mySidebar">
-
-
-
-                  <div class="form-group">
-                   <label for="exampleFormControlSelect1">Seleccione el tipo de Pokémon:</label>
-                   <select class="form-control" id="select-tipo" style="width: 200px;">
-                      <option value= "none">Ningunoo</option>
-                      <option value="Poison">Poison</option>
-                      <option value="Grass"> Grass </option>
-                      <option value="Fire"> Fire</option>
-                      <option value="Electric"> Electric</option>
-                      <option value="Water"> Water</option>
-                    </select>
-
+    <div class="col md-8">
+          <ul class="nav justify-content-left navi" >
+        <li class="nav-item">
+          <button class="btn btn-primary btn-lg font-nav margin btn-color font-navi-resp" id="search" >Busca tu Pokémon</button>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-primary btn-lg font-nav margin btn-color font-navi-resp" >Datos Curiosos</button>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-primary btn-lg font-nav btn-color font-navi-resp" data-toggle="modal" data-target="#exampleModalCenter">Instrucciones</button>
+          <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Instrucciones</h5>
+                    <button  class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
-
-                     <div class="form-group">
-                   <label for="exampleFormControlSelect1">Seleccione organización</label>
-                   <select class="form-control" id="select-orden" style="width: 200px;">
-                      <option value= "none">Ninguno</option>
-                      <option value="name">Nombre</option>
-                      <option value="id">Número</option>
-                   
-                    </select>
+                  <div class="modal-body">
+                    <p>
+                      Primero debes seleccionar tipo de Pokémon
+                      Luego seleccionar como deseas que tus Pokémon se ordenen
+                      Finalmente seleccionar orden ascendente o descendente
+                    </p>
                   </div>
-
-
-
-                  <div class="form-group">
-                    <label for="order">Seleccione el tipo de Pokémon:</label>
-                    <select class="form-control" id="order" style="width: 200px;">
-                       <option value="none">Ninguno</option>
-                       <option value="a-z">Alfabético Ascendente A-Z</option>
-                       <option value="z-a">Alfabético Descendente Z-A</option>
-                       <option value="1-150">Numérico Ascendente</option>
-                       <option value="150-1">Numérico Descendente</option>
-                    </select>
+                  <div class="modal-footer">
+                    
                   </div>
-                </nav>
-            </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card-group">
-              <div class="row" id="id1">
-              
-                <!-- Clase Dispositivo Medida
-                    col-xs- móvil < 768 px
-                    col-sm- tablets >= 768 px
-                    col-md- desktop >= 992 px
-                    col-lg- Desktop más grande  >= 1200 px -->
-
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
+        </li>
+        <li class="nav-item">
+         
+        </li>
+      </ul>
+    </div>
+  </div>
     
-    <footer>
+  </header>
+  <section id="welcome" >
+    
+    
+  </section>
+  <footer>
       
-    </footer>
+  </footer>
+  
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./data/pokemon/pokemon.js"></script>
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-  </body>
-
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="./data/pokemon/pokemon.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+  
 </html>

@@ -1,64 +1,124 @@
-header{
-
-  margin-top: 150px;
+*{
+  margin:0;
+  padding: 0;
 }
 
-body {
-  font-family: "Lato", sans-serif;
+
+body{
 
   background-image: url(https://i.ibb.co/xmkNgTt/Schermata-2017-11-27-alle-15-36-53-1024x546-copia.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
   background-size: 1820px;
-  background-color: #49847C;
+  overflow-x: hidden
 }
 
-nav{
-
-  z-index:3;
-  width:400px;
-  margin-left: 25px;
-  margin-right:10px;
-  display: inline-grid;
+.logo{
+  background-image: url(https://i.ibb.co/9YtfB7n/Dexii-Poke.png)!important;
+  background-size: 260px 100px;
+  background-position: left;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
-#firstscreen{
-text-align: center;
-}
 
-h3{
-margin-top: 100px;
-color: white;
-text-align: center;
+
+.logo:hover{
 
 }
 
-button{
-  padding: 4%;
-  margin-right: 5px;
-  border-radius: 15px !important;
+.pokemonImage{
 
+  background-image: url(https://i.ibb.co/N91cL4f/image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  height: 500px;
+}
+
+.titleWelcome{
+
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px
+  opacity:1;
+  height: 400px;
+
+}
+.font-title{
+
+  font-family: 'Raleway 600', sans-serif;
+  font-size: 25px;
+ padding-top: 10%;
+ padding-left: 6%;
+ color: #1a5d4a;
+}
+
+.containerTitle{
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 60%; 
+  width: 90%;
+  margin-top: 70px;
+
+
+}
+
+.font-subtitle{
+  color: #1a5d4a;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-left:6%;
+  padding-right: 6%;
+  line-height: 35px;
 }
 
 .btn-color{
-  background-color: #3466af !important;
-  color: white;
- 
 
+  background-color: #3466AF !important;
+  border: none !important;
+  border-radius: 20px !important;
 
+}
 
+button:hover{
+  border:none!important;
+  background-color:#2a589a !important;
+
+}
+.font-nav{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px !important;
+  cursor: pointer !important;
+
+}
+
+.margin{
+
+  margin-right: 10px;
+}
+
+.margin-select{
+
+  padding: 2%;
+}
+
+#clean{
+  margin-top: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 
 .card-group{
-  margin-left: 40px;
+  margin-left: 30px;
   margin-right: 40px;
 }
 
 .card{
   margin-bottom: 15px;
-  background-color: #ebf1f9;
+  background-color: white;
 }
 
 
@@ -66,7 +126,7 @@ button{
   padding: 15px;
   width: 100%;
   height: 160px;
-  background-color:#d8e3f3;
+  background-color:#f2f2f2;
 }
 
 .modal.fade{
@@ -102,15 +162,81 @@ h6{
   text-align: center;
 }
 
-label{
-  
-  background-color: rgba(192,192,192,0.8); 
-  color: #49847C;
-  font-size: 20px;
-}
 
 nav{
   width: 100%;
   display: inherit;
-  
 }
+
+label{
+
+  color:  #1a5d4a;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.navi{
+  margin-top: 17px;
+  padding-bottom: 2%
+
+
+}
+
+.margin-welcome{
+  margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    background-size: 140px 50px;
+
+  }
+
+  .font-navi-resp
+  {
+    font-size: 14px !important;
+    text-align: left !important;
+  }
+  .pokemonImage{
+    background-size: 350px 200px;
+    margin-top: 10px;
+    height: 250px;
+  }
+  .containerTitle{
+    position: top;
+    margin-top: 0px;
+    height: 200px;
+    margin-left: 20px;
+  }
+  .font-title{
+    font-size: 16px;
+  }
+  .font-subtitle{
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .card-img-top{
+    width: 190px;
+    height: 210px;
+    text-align: center;
+    background-color: white;
+    
+   
+  }
+  .card-img-poke{
+    align-self: center;
+    
+  }
+  .card{
+
+
+    text-align: center;
+  }
+  .margin-select{
+
+  padding: 9%;
+  }
+}
+
