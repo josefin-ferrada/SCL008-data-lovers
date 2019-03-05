@@ -43,10 +43,8 @@ let secondScreen = '\
                           <label for="order">Seleccione organización:</label>\
                           <select class="form-control" id="order" >\
                             <option value="none">Ninguno</option>\
-                            <option value="a-z">Alfabético Ascendente A-Z</option>\
-                            <option value="z-a">Alfabético Descendente Z-A</option>\
-                            <option value="1-150">Numérico Ascendente</option>\
-                            <option value="150-1">Numérico Descendente</option>\
+                            <option value="asc">Ascendente</option>\
+                            <option value="desc">Descendente</option>\
                           </select>\
                         </div>\
                         <div class="form-group col-md-2">\

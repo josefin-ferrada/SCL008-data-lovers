@@ -20,7 +20,7 @@ window.data = {
         let ordered;
 
         if(sortBy === "name"){
-                if (Order === "a-z") {
+                if (Order === "asc") {
                 ordered = pokemonData.sort((a, b) => {
                     if (a.name < b.name)
                         return -1;
@@ -29,7 +29,7 @@ window.data = {
                     else
                         return 0;
                 });
-            } else if (Order === "z-a") {
+            } else if (Order === "desc") {
                 ordered = pokemonData.sort((a, b) => {
                     if (a.name < b.name)
                         return 1;
@@ -42,7 +42,7 @@ window.data = {
 
 
         } else if(sortBy === "id"){
-                    if (Order === '1-150' || Order === 'none') {
+                    if (Order === 'asc' || Order === 'none') {
                     ordered = pokemonData.sort((a, b) => {
                         if (a.id < b.id)
                             return -1;
@@ -51,7 +51,7 @@ window.data = {
                         else
                             return 0;
                     });
-                } else if (Order === '150-1') {
+                } else if (Order === 'desc') {
                     ordered = pokemonData.sort((a, b) => {
                         if (a.id < b.id)
                             return 1;
