@@ -17,12 +17,14 @@
 
 ## Preámbulo
 
-Para un jugador y fanático de Pokemon, es importante tener una base de datos que muestren los 151 Pokemon de la primera generación.
-Según encuestas para un jugador promedio de Pokemon, que basa en las batallas Pokemon, relacionado a Pokemon Go, es importante saber saber ciertas características, de estos, y mantener un orden de filtrado, que no sea tan complejo como la Pokedex, ya que el acceso a esta plataforma  demora en arrojar resultados imposibilitando la victoria en el juego.
+Para un jugador y fanático de Pokemon, es importante tener una base de datos que muestren los 151 Pokemon de la primera generación.<br>
+Según encuestas para un jugador promedio de Pokemon GO, es importante saber saber ciertas características, de cada Pokemon, y mantener un orden de filtrado, que no sea tan complejo como la Pokedex, ya que el acceso a esta plataforma  demora en arrojar resultados imposibilitando la victoria en el juego.<br>
 Por ello, teniendo en cuenta las necesidades de nuestros jugadores, es importante acceder a una plataforma de fácil acceso y con información especifica de cada Pokemon antes de cada batalla Pokemon. 
 En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de multiple información del mundo Pokemon https://www.pokemon.com/es/pokedex/
 
-![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
+image: url(https://i.ibb.co/N91cL4f/image.png);
+<img src = "./img/package1.png">
+
 
 \* Puedes ver el datalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
 y la interfaz construida en este [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
@@ -469,6 +471,10 @@ compañera:
 
 * Investigación con usuario
 * [Principios de diseño visual](https://lms.laboratoria.la/cohorts/scl-2019-01-bc-core-commoncore-scl008/courses/diseno-visual)
+* https://es.wikipedia.org/wiki/Anexo:Pok%C3%A9mon_de_la_primera_generaci%C3%B3n
+* https://es.wikipedia.org/wiki/Pok%C3%A9mon#Primera_generaci%C3%B3n
+* https://www.xataka.com/videojuegos/pokemon-go-las-17-cosas-a-saber-si-quieres-dominar-el-juego
+* https://www.huffingtonpost.es/2016/07/23/curiosidades-pokemon_n_11050816.html
 
 
 ### Desarrollo Front-end
