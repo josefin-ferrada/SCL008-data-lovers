@@ -23,7 +23,7 @@ Por ello, teniendo en cuenta las necesidades de nuestros jugadores, es important
 En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de multiple información del mundo Pokemon https://www.pokemon.com/es/pokedex/
 
 image: url(https://i.ibb.co/N91cL4f/image.png);
-<img src = "./img/package1.png">
+<img src = "/img/package1.png">
 
 
 la interfaz construida en este [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
