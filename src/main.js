@@ -1,6 +1,7 @@
 const pokemonData = window.POKEMON.pokemon;
 let searchBtn = document.getElementById('search');
 let logoInit = document.getElementById('logo-dexi');
+let curiousBtn= document.getElementById('curius-data');
 let firstScreen = '\
                   <div class="row margin-welcome" >\
                     <div class="col-md-6" >\
@@ -10,6 +11,7 @@ let firstScreen = '\
                     <div class="col-md-6" >\
                       <div class="containerTitle">\
                         <p class="font-title">BIENVENID@ A TU GUÍA POKÉMON</p>\
+                        <hr class="my-4">\
                         <p class="font-subtitle">Comienza la busqueda de tu Pokémon favorito, tenemos todos sus detalles para que seas el mejor maestro Pokémon</p>\
                       </div>\
                     </div>\
@@ -62,8 +64,45 @@ let secondScreen = '\
                           </div>\
                         </div>\
                       </div>\
-                    </div>\
-                  ';
+                    </div>';
+
+let thirdCuriousData = '\
+                        <div class="row row-curious-data">\
+                          <div class="col-4 background-kanto">\
+                          </div>\
+                          <div class="col-7 container-curious-data">\
+                            <p class="title-curious-data">DATOS CURIOSOS DE POKÉMONES DE LA REGIÓN KANTO</p>\
+                            <hr class="my-4-curious">\
+                            <p class="subtititle-curious">Aquí encontrarás estadisticas sobre tipo y peso de tus pokémones preferidos, conocer esta información te hará el mas culto maestro pokémon!</p>\
+                          </div>\
+                        </div>\
+                        <div class="row row-curious-data">\
+                          <div class="col-4 background-clock">\
+                          </div>\
+                          <div class="col-7 container-curious-data">\
+                            <p class="title-curious-data">¿Quieres saber que porcentaje de pokémon según su tipo hay en la región Kanto?</p>\
+                            <hr class="my-4-curious">\
+                            <label for="exampleFormControlSelect1">Seleccione el tipo de Pokémon:</label>\
+                            <select class="form-control" id="select-type-curious" >\
+                            <option value= "none">Ninguno</option>\
+                            <option value="Poison">Poison</option>\
+                            <option value="Grass"> Grass </option>\
+                            <option value="Fire"> Fire</option>\
+                            <option value="Electric"> Electric</option>\
+                            <option value="Water"> Water</option>\
+                          </select>\
+                          </div>\
+                        </div>\
+                        <div class="row row-curious-data">\
+                          <div class="col-4 background-types">\
+                          </div>\
+                          <div class="col-7 container-curious-data">\
+                            <p class="title-curious-data">DATOS CURIOSOS DE POKÉMONES DE LA REGIÓN KANTO</p>\
+                            <hr class="my-4-curious">\
+                            <p class="subtititle-curious">Aquí encontrarás estadisticas sobre tipo y peso de tus pokémones preferidos, conocer esta información te hará el mas culto maestro pokémon!</p>\
+                          </div>\
+                        </div>';
+
 
 window.onload = document.getElementById('welcome').innerHTML = firstScreen;
 
@@ -189,5 +228,11 @@ logoInit.addEventListener('click', () => {
 
     document.getElementById('welcome').innerHTML = '';
     document.getElementById('welcome').innerHTML = firstScreen;
+
+});
+
+curiousBtn.addEventListener('click', () =>{
+    document.getElementById('welcome').innerHTML = '';
+    document.getElementById('welcome').innerHTML = thirdCuriousData;
 
 });
