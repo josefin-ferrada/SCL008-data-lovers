@@ -30,7 +30,6 @@ En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de mul
 
 la interfaz construida en este [link](https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html).
 
-
 ## Resumen del proyecto
 
 En este proyecto **construirás una _página web_ para visualizar un
