@@ -17,17 +17,10 @@
 
 ## Preámbulo
 
-Según un [estudio de IBM](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 trillones de bytes de datos, una cifra sin precedentes.
-
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
-
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por el usuario.
+Para un jugador y fanático de Pokemon, es importante tener una base de datos que muestren los 151 Pokemon de la primera generación.
+Según encuestas para un jugador promedio de Pokemon, que basa en las batallas Pokemon, relacionado a Pokemon Go, es importante saber saber ciertas características, de estos, y mantener un orden de filtrado, que no sea tan complejo como la Pokedex, ya que el acceso a esta plataforma  demora en arrojar resultados imposibilitando la victoria en el juego.
+Por ello, teniendo en cuenta las necesidades de nuestros jugadores, es importante acceder a una plataforma de fácil acceso y con información especifica de cada Pokemon antes de cada batalla Pokemon. 
+En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de multiple información del mundo Pokemon https://www.pokemon.com/es/pokedex/
 
 ![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
 
