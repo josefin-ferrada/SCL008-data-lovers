@@ -2,9 +2,9 @@
 
 ## Índice
 
-* [Preámbulo](#preámbulo)
-* [Descripción](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
+* [Introducción](#introducción)
+* [Necesidades de nuestros usuarios](#resumen-del-proyecto)
+* [Prototipos de la plataforma](#prototipo-de-la-plataforma)
 * [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
 * [Parte obligatoria](#parte-obligatoria)
 * [Parte opcional](#parte-opcional-hacker-edition)
@@ -30,58 +30,36 @@ En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de mul
 
 la interfaz construida en este [link](https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html).
 
-## Resumen del proyecto
+## Necesidades de nuestros usuarios
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
-necesita.
+En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cuales fueron encuestados, y nos indicaron sus necesidades como jugadores habituales de Pokemon Go. 
 
-Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
-explores y decidas con qué temática te interesa trabajar. Hemos elegido
-específicamente estos sets de datos porque creemos que se adecúan bien a esta
-etapa de tu aprendizaje.
+<h3> HISTORIA 1 : Yo como jugador habitual de Pokemon, quiero ver el tipo de Pokemon y sus debilidades para poder conocerlos y en caso de estar en una batalla poder tener ventaja. </h3>
 
-Una vez que definas tu área de interés, entiende quién es tu usuario y qué
-necesita saber o ver exactamente; luego podrás construir la interfaz que le
-ayude a interactuar y entender mejor esos datos.
+<h5>Propuesta: Realizar una plataforma que contenga los detalles principales de cada Pokemon.</h5> <br>
 
-Estos son datos que te proponemos:
+<h3>HISTORIA 2: Yo como jugador habitual de pokémon me gustaría una plataforma que filtrara características de cada pokémon para que sea más accesible y rápido para mi.</h3>
 
-* Indicadores de desarrollo del Banco Mundial de algunos países (Brasil, Chile, 
-  México y Perú). Estos datos incluyen indicadores demográficos, económicos y 
-  comerciales.
-* [Pokémon](src/data/pokemon/pokemon.json):
-  En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
-  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](https://pokemongolive.com).
-* [Steam noticias](src/data/steam/steam.json):
-  Lista noticias relacionadas a los videojuegos presentes en la
-  plataforma de [Steam](https://store.steampowered.com/).
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este set de datos muestra la lista de jugadores en una liga del
-  juego League of Legends (LoL), puedes revisar la documentación de su API en
-  este [link](https://developer.riotgames.com/api-methods/).
-* [Personas heridas por medio de transporte en EEUU](src/data/injuries/injuries.json).
-  Este set nos muestra el número de personas heridas en accidentes de
-  transporte, con data anual desde 1960 y categorizada por tipo de transporte
-  (aire, barco, automóvil, moto, bicileta, ...).
+<h5>Propuesta: La plataforma tiene que contener un sistema de filtrado de acuerdo a tipos de Pokemon </h5>
 
-Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y hacer algún calculo agregado**. Como aclaración,
-con cálculo agregado nos referimos a distintos cálculos que puedes hacer con
-la data que tienes para mostrar información aún más relevante a los usuarios.
-Una opción serían cálculos estadísticos como el promedio, el máximo o el mínimo,
-por ejemplo, si tenemos una colección que representa a un grupo de personas,
-y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
-podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
+<h3>HISTORIA 3:  Yo como jugador principiante de pokémon quiero ver que cantidad de dulces debe tener cada pokémon para evolucionar</h3>
+
+<h5>Propuesta: En los detalles de cada Pokemon es necesario mostrar la cantidad de caramelos para evolucionar. </h5>
+
+<h3>HISTORIA 4: Yo como jugador habitual de pokémon me gustaría conocer la probabilidad de aparición de cada pokémon para poder atraparlos con más eficiencia</h3>
+<h5>Prouesta: En los detalles principales de características de cada Pokemon es necesario mostrar la hora de aparición para la captura de cada Pokemon</h5>
 
 
-## Consideraciones generales
+## Prototipos de la Plataforma
 
-* Este proyecto se debe resolver en duplas.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: El proyecto dura 3 semanas, trabaja con sprints 
-y planificando tus tareas.
+<a href="">
+  <img src="img/1.jpg" width=200px>
+  <img src="img/2.jpg" width=200px>
+  <img src="img/3.jpg" width=200px>
+  <img src="img/4.jpg" width=200px>
+  <img src="img/5.jpg" width=200px>
+  <img src="img/6.jpg" width=200px>
+</a>
 
 ## Objetivos de aprendizaje
 
