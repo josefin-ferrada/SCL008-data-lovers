@@ -68,17 +68,20 @@ Prototipo de Baja Fidelidad: En el siguiente prototipo se puede observar el inic
   <img src="img/1.jpeg" width=900px>
   <img src="img/3.jpeg" width=900px>
   <img src="img/5.jpeg" width=900px>
-
-<br>El prototipo en  Figma, es un prototipo de alta fidelidad, contiene los colores e interacción en la  
+</a>
+<br>
+El prototipo en  Figma, es un prototipo de alta fidelidad, contiene los colores e interacción en la  
+<a href="">
   <img src="img/appdexi.JPG" width="900px">
 </a>
 
 ## Testeos en prototipos
 
-En el siguiente punto veremos la interacción de los usuarios con la plataforma.
-<a href="">
-<video src="img/test1.mp4" height=300></video>
-<a>
+En el siguiente punto veremos la interacción de un usuario con el prototipo de baja fidelidad. 
+
+https://youtu.be/8uz1yxRw1iM
+
+
 
 ### Definición del producto
 
