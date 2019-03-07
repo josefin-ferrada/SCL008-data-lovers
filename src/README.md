@@ -1,10 +1,11 @@
-# Data Lovers
+# Dexi Poke Lovers
 
 ## Índice
 
 * [Introducción](#introducción)
 * [Necesidades de nuestros usuarios](#resumen-del-proyecto)
 * [Prototipos de la plataforma](#prototipo-de-la-plataforma)
+* [Testeos y conclusiones en prototipos](#testeos-y-conclusiones-en-prototipo)
 * [Consideraciones técnicas](#consideraciones-técnicas)
 * [Primeros pasos y organización](#primeros-pasos-y-organización)
 * [Contenido de referencia](#contenido-de-referencia)
@@ -14,9 +15,11 @@
 
 ## Introducción
 
-Para un jugador y fanático de Pokemon, es importante tener una base de datos que muestren los 151 Pokemon de la primera generación de la región Kanto.<br>
-Según encuestas para un jugador promedio de Pokemon GO, es importante saber  ciertas características, de cada Pokemon, y mantener un orden de filtrado, que no sea tan complejo como la Pokedex, ya que el acceso a esta plataforma  demora en arrojar resultados imposibilitando la victoria en el juego.<br>
-Por ello, teniendo en cuenta las necesidades de nuestros jugadores, es importante acceder a una plataforma de fácil acceso y con información especifica de cada Pokemon antes de cada batalla Pokemon. 
+Para un jugador y fanático de Pokemon, es importante tener una base de datos que muestren los 151 Pokémon de la primera generación de la región Kanto.<br>
+Según encuestas para un jugador promedio de Pokemon GO, es importante saber  ciertas características de cada Pokemon, y mantener un orden de filtrado que no sea tan complejo como la Pokedex, ya que el acceso a esta plataforma  demora en arrojar resultados imposibilitando la victoria en las batallas Pokémon.<br>
+Por ello, teniendo en cuenta las necesidades de nuestros jugadores, queremos entregar una plataforma de fácil acceso y con información especifica de cada Pokemon antes de cada batalla. 
+A continuación podrás ver el enlace la plataforma Pokedesx y la nueva propuesta para el juego.
+
 En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de multiple información del mundo Pokemon https://www.pokemon.com/es/pokedex/
 
 <a href="">
@@ -41,22 +44,22 @@ En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de mul
 
 ## Necesidades de nuestros usuarios
 
-En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cuales fueron encuestados, y nos indicaron sus necesidades como jugadores habituales de Pokemon Go. 
+En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cuales fueron encuestados, y nos indicaron sus necesidades como jugadores habituales de Pokémon Go. 
 
-<h4> HISTORIA 1 : Yo como jugador habitual de Pokemon, quiero ver el tipo de Pokemon y sus debilidades para poder conocerlos y en caso de estar en una batalla poder tener ventaja. </h4>
+<h4> HISTORIA 1 : Yo como jugador habitual de Pokémon, quiero ver el tipo de Pokemon y sus debilidades para poder conocerlos y en caso de estar en una batalla poder tener ventaja. </h4>
 
-<h5>Propuesta: Realizar una plataforma que contenga los detalles principales de cada Pokemon.</h5>
+<h5>Propuesta: Realizar una plataforma que contenga los detalles principales de cada Pokémon.</h5>
 
-<h4>HISTORIA 2: Yo como jugador habitual de pokémon me gustaría una plataforma que filtrara características de cada pokémon para que sea más accesible y rápido para mi.</h4>
+<h4>HISTORIA 2: Yo como jugador habitual de pokémon me gustaría una plataforma que filtrara características de cada Pokémon para que sea más accesible y rápido para mi.</h4>
 
-<h5>Propuesta: La plataforma tiene que contener un sistema de filtrado de acuerdo a tipos de Pokemon </h5>
+<h5>Propuesta: La plataforma tiene que contener un sistema de filtrado de acuerdo a tipos de Pokémon </h5>
 
-<h4>HISTORIA 3:  Yo como jugador principiante de pokémon quiero ver que cantidad de dulces debe tener cada pokémon para evolucionar</h4>
+<h4>HISTORIA 3:  Yo como jugador principiante de pokémon quiero ver que cantidad de dulces debe tener cada Pokémon para evolucionar</h4>
 
 <h5>Propuesta: En los detalles de cada Pokemon es necesario mostrar la cantidad de caramelos para evolucionar. </h5>
 
 <h4>HISTORIA 4: Yo como jugador habitual de pokémon me gustaría conocer la probabilidad de aparición de cada pokémon para poder atraparlos con más eficiencia</h4>
-<h5>Prouesta: En los detalles principales de características de cada Pokemon es necesario mostrar la hora de aparición para la captura de cada Pokemon</h5>
+<h5>Prouesta: En los detalles principales de características de cada Pokemon es necesario mostrar la hora de aparición para la captura de cada Pokémon</h5>
 
 
 ## Prototipos de la Plataforma
@@ -75,26 +78,24 @@ El prototipo en  Figma, es un prototipo de alta fidelidad, contiene los colores 
   <img src="img/appdexi.JPG" width="900px">
 </a>
 
-## Testeos en prototipos
+## Testeos y conclusiones en prototipos
 
 En el siguiente punto veremos la interacción de un usuario con el prototipo de baja fidelidad. 
 
-https://youtu.be/8uz1yxRw1iM
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/8uz1yxRw1iM)
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.useloom.com/share/cf9c814dc55f4468b19aef0567ceeb9c)
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.useloom.com/share/8bfaf0abb1b4443da0f772bf45811433)
 
 
 ### Definición del producto
 
-Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
-contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el problema (o problemas) que tiene tu usuario.
+Este producto es una plataforma aliada al juego Pokemon Go, diseñada para jugadores de un rango en edad de 15 años en adelante, se busca mantener los detalles principales de Pokemon Go, ya que Dexi Poke es una herramienta perfecta para poder tener conocimiento de detalles de cada Pokémon de manera rápida y eficaz.
 
-### Historias de usuario
+### Conclusiones de 
 
-Una vez que entiendas las necesidades de tu usuario, escribe las [Historias
-de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
-todo lo que el usuario necesita hacer/ver. Asegúrate de incluir una definición
-de terminado (_definition o done_) para cada una.
+
 
 ### Diseño de la Interfaz de Usuario
 
