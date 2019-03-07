@@ -73,7 +73,7 @@ Prototipo de Baja Fidelidad: En el siguiente prototipo se puede observar el inic
   <img src="img/5.jpeg" width=900px>
 </a>
 <br>
-El prototipo en  Figma, es un prototipo de alta fidelidad, contiene los colores e interacción en la  
+<br>El prototipo en Alta fidelidad, contiene los colores e interacción en la plataforma.  
 <a href="">
   <img src="img/appdexi.JPG" width="900px">
 </a>
@@ -82,7 +82,7 @@ El prototipo en  Figma, es un prototipo de alta fidelidad, contiene los colores 
 
 En el siguiente punto veremos la interacción de un usuario con el prototipo de baja fidelidad. 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/8uz1yxRw1iM)
+[![Watch the video](https://youtu.be/8uz1yxRw1iM)](https://youtu.be/8uz1yxRw1iM)
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.useloom.com/share/cf9c814dc55f4468b19aef0567ceeb9c)
 
@@ -90,14 +90,11 @@ En el siguiente punto veremos la interacción de un usuario con el prototipo de 
 
 
 ### Definición del producto
-
-Este producto es una plataforma aliada al juego Pokemon Go, diseñada para jugadores de un rango en edad de 15 años en adelante, se busca mantener los detalles principales de Pokemon Go, ya que Dexi Poke es una herramienta perfecta para poder tener conocimiento de detalles de cada Pokémon de manera rápida y eficaz.
-
-### Conclusiones de 
-
+El producto se realizó viendo las necesidades de los usuarios por una plataforma de acceso directo a un sistema de filtrado y detalle precisos de cada Pokémon.
 
 
 ### Diseño de la Interfaz de Usuario
+Este producto es una plataforma aliada al juego Pokemon Go, diseñada para jugadores de un rango en edad de 15 años en adelante, se busca mantener los detalles principales de Pokemon Go, ya que Dexi Poke es una herramienta perfecta para poder tener conocimiento de detalles de cada Pokémon de manera rápida y eficaz.
 
 #### Prototipo de baja fidelidad
 
@@ -106,28 +103,9 @@ solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
 iteraciones que realices, y las subas a tu repositorio, y las menciones en tu
 `README.md`.
 
-#### Prototipo de alta fidelidad
+#### Prototipo Responsivo
 
-Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
-_User Interface_). Para eso debes aprender a utilizar alguna herramienta de
-diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) que es
-una herramienta que funciona en el navegador y, además, puedes crear una cuenta
-gratis. Sin embargo, eres libre de utilizar otros editores gráficos como
-Illustrator, Photoshop, PowerPoint, Keynote, etc. Recuerda utilizar la identidad
-gráfica correspondiente a cada set de datos que elijas.
 
-El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
-desearías implementar si tuvieras tiempo ilimitado para hackear. Además, tu
-diseño debe seguir los fundamentos de _visual design_. También, deberás exportar
-tu diseño a [Zeplin](https://zeplin.io/) y utilizar las especificaciones de
-estilo que te dé Zeplin al momento de implementar tus diseños en código.
-
-#### Testeos de usabilidad
-
-Durante el reto deberás realizar tests de usabilidad con distintos usuarios, y
-en base a los resultados de esos tests, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los tests y cómo los
-mejoraste en tu propuesta final.
 
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
