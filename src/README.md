@@ -75,7 +75,7 @@ En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cual
 
 En el siguiente punto veremos la interacción de los usuarios con la plataforma.
 <a href="">
-<video src="img/test1.mp4" width="300 height="300></video>
+<video src="img/test1.mp4" width=300 height=300></video>
 <a>
 
 ### Definición del producto
