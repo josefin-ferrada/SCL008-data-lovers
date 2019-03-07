@@ -26,15 +26,15 @@ En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de mul
 La interfaz construida en este proyecto es la siguiente: [link](https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html).
 
 <a href="">
-  <img src="img/appDexiPoke.jpg" width=500px>
+  <img src="img/appdexi.JPG" width=500px>
 </a>
 
 
 
 En las siguientes imagenes se puede visualizar la base de datos con los 151 Pokemon de la region Kanto, la cual es usada en multiples plataformas del mundo Pokemon.
 <a href="">
-  <img src="img/pakage1.png" width=500px>
-  <img src="img/pakage1.png" width=500px>
+  <img src="img/pakage1.png" width=800px>
+  <img src="img/pakage1.png" width=800px>
 </a>
 
 
@@ -62,20 +62,20 @@ En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cual
 ## Prototipos de la Plataforma
 
 <a href="">
-  <img src="img/1.jpeg" width=200px>
-  <img src="img/2.jpeg" width=200px>
-  <img src="img/3.jpeg" width=200px>
-  <img src="img/4.jpeg" width=200px>
-  <img src="img/5.jpeg" width=200px>
-  <img src="img/6.jpeg" width=200px>
-  <img src="fima.png" width="300px">
+  <img src="img/1.jpeg" width=1000px>
+  <img src="img/2.jpeg" width=1000px>
+  <img src="img/3.jpeg" width=1000px>
+  <img src="img/4.jpeg" width=1000px>
+  <img src="img/5.jpeg" width=1000px>
+  <img src="img/6.jpeg" width=1000px>
+  <img src="img/figma.png" width="300px">
 </a>
 
 ## Testeos en prototipos
 
 En el siguiente punto veremos la interacción de los usuarios con la plataforma.
 <a href="">
-<embed src="img/testbajafide.mp4"></embed>
+<video src="img/testbajafide.mp4" text-align=center></video>
 <a>
 
 ### Definición del producto
