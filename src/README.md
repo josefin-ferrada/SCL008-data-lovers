@@ -68,14 +68,14 @@ En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cual
   <img src="img/4.jpeg" width=1000px>
   <img src="img/5.jpeg" width=1000px>
   <img src="img/6.jpeg" width=1000px>
-  <img src="img/figma.png" width="300px">
+  <img src="img/figma.png" width="900px">
 </a>
 
 ## Testeos en prototipos
 
 En el siguiente punto veremos la interacción de los usuarios con la plataforma.
 <a href="">
-<video src="img/testbajafide.mp4" text-align=center></video>
+<embed src="img/testbajafide.mp4" width="300 height="300></embed>
 <a>
 
 ### Definición del producto
