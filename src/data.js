@@ -77,4 +77,5 @@ window.data = {
         });
         return Math.round((counter / 151) * 100) + "%";
     }
+
 }
