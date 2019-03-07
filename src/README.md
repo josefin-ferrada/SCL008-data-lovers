@@ -34,31 +34,31 @@ la interfaz construida en este [link](https://josefin-ferrada.github.io/SCL008-d
 
 En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cuales fueron encuestados, y nos indicaron sus necesidades como jugadores habituales de Pokemon Go. 
 
-<h3> HISTORIA 1 : Yo como jugador habitual de Pokemon, quiero ver el tipo de Pokemon y sus debilidades para poder conocerlos y en caso de estar en una batalla poder tener ventaja. </h3>
+<h4> HISTORIA 1 : Yo como jugador habitual de Pokemon, quiero ver el tipo de Pokemon y sus debilidades para poder conocerlos y en caso de estar en una batalla poder tener ventaja. </h4>
 
 <h5>Propuesta: Realizar una plataforma que contenga los detalles principales de cada Pokemon.</h5> <br>
 
-<h3>HISTORIA 2: Yo como jugador habitual de pokémon me gustaría una plataforma que filtrara características de cada pokémon para que sea más accesible y rápido para mi.</h3>
+<h4>HISTORIA 2: Yo como jugador habitual de pokémon me gustaría una plataforma que filtrara características de cada pokémon para que sea más accesible y rápido para mi.</h4>
 
 <h5>Propuesta: La plataforma tiene que contener un sistema de filtrado de acuerdo a tipos de Pokemon </h5>
 
-<h3>HISTORIA 3:  Yo como jugador principiante de pokémon quiero ver que cantidad de dulces debe tener cada pokémon para evolucionar</h3>
+<h4>HISTORIA 3:  Yo como jugador principiante de pokémon quiero ver que cantidad de dulces debe tener cada pokémon para evolucionar</h4>
 
 <h5>Propuesta: En los detalles de cada Pokemon es necesario mostrar la cantidad de caramelos para evolucionar. </h5>
 
-<h3>HISTORIA 4: Yo como jugador habitual de pokémon me gustaría conocer la probabilidad de aparición de cada pokémon para poder atraparlos con más eficiencia</h3>
+<h4>HISTORIA 4: Yo como jugador habitual de pokémon me gustaría conocer la probabilidad de aparición de cada pokémon para poder atraparlos con más eficiencia</h4>
 <h5>Prouesta: En los detalles principales de características de cada Pokemon es necesario mostrar la hora de aparición para la captura de cada Pokemon</h5>
 
 
 ## Prototipos de la Plataforma
 
 <a href="">
-  <img src="img/1.jpg" width=200px>
-  <img src="img/2.jpg" width=200px>
-  <img src="img/3.jpg" width=200px>
-  <img src="img/4.jpg" width=200px>
-  <img src="img/5.jpg" width=200px>
-  <img src="img/6.jpg" width=200px>
+  <img src="img/1.jpeg" width=200px>
+  <img src="img/2.jpeg" width=200px>
+  <img src="img/3.jpeg" width=200px>
+  <img src="img/4.jpeg" width=200px>
+  <img src="img/5.jpeg" width=200px>
+  <img src="img/6.jpeg" width=200px>
 </a>
 
 ## Objetivos de aprendizaje
