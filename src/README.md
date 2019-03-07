@@ -5,30 +5,39 @@
 * [Introducción](#introducción)
 * [Necesidades de nuestros usuarios](#resumen-del-proyecto)
 * [Prototipos de la plataforma](#prototipo-de-la-plataforma)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Parte opcional](#parte-opcional-hacker-edition)
 * [Consideraciones técnicas](#consideraciones-técnicas)
-* [Primeros pasos](#primeros-pasos)
+* [Primeros pasos y organización](#primeros-pasos-y-organización)
 * [Contenido de referencia](#contenido-de-referencia)
 * [Checklist](#checklist)
 
 ***
 
-## Preámbulo
+## Introducción
 
-Para un jugador y fanático de Pokemon, es importante tener una base de datos que muestren los 151 Pokemon de la primera generación.<br>
-Según encuestas para un jugador promedio de Pokemon GO, es importante saber saber ciertas características, de cada Pokemon, y mantener un orden de filtrado, que no sea tan complejo como la Pokedex, ya que el acceso a esta plataforma  demora en arrojar resultados imposibilitando la victoria en el juego.<br>
+Para un jugador y fanático de Pokemon, es importante tener una base de datos que muestren los 151 Pokemon de la primera generación de la región Kanto.<br>
+Según encuestas para un jugador promedio de Pokemon GO, es importante saber  ciertas características, de cada Pokemon, y mantener un orden de filtrado, que no sea tan complejo como la Pokedex, ya que el acceso a esta plataforma  demora en arrojar resultados imposibilitando la victoria en el juego.<br>
 Por ello, teniendo en cuenta las necesidades de nuestros jugadores, es importante acceder a una plataforma de fácil acceso y con información especifica de cada Pokemon antes de cada batalla Pokemon. 
 En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de multiple información del mundo Pokemon https://www.pokemon.com/es/pokedex/
 
 <a href="">
-  <img src="img/pakage1.png" width=200px>
-  <img src="img/pakage1.png" width=200px>
+  <img src="img/pokedesk.png" width=500px>
+</a>
+
+La interfaz construida en este proyecto es la siguiente: [link](https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html).
+
+<a href="">
+  <img src="img/appDexiPoke.jpg" width=500px>
 </a>
 
 
-la interfaz construida en este [link](https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html).
+
+En las siguientes imagenes se puede visualizar la base de datos con los 151 Pokemon de la region Kanto, la cual es usada en multiples plataformas del mundo Pokemon.
+<a href="">
+  <img src="img/pakage1.png" width=500px>
+  <img src="img/pakage1.png" width=500px>
+</a>
+
+
 
 ## Necesidades de nuestros usuarios
 
@@ -36,7 +45,7 @@ En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cual
 
 <h4> HISTORIA 1 : Yo como jugador habitual de Pokemon, quiero ver el tipo de Pokemon y sus debilidades para poder conocerlos y en caso de estar en una batalla poder tener ventaja. </h4>
 
-<h5>Propuesta: Realizar una plataforma que contenga los detalles principales de cada Pokemon.</h5> <br>
+<h5>Propuesta: Realizar una plataforma que contenga los detalles principales de cada Pokemon.</h5>
 
 <h4>HISTORIA 2: Yo como jugador habitual de pokémon me gustaría una plataforma que filtrara características de cada pokémon para que sea más accesible y rápido para mi.</h4>
 
@@ -59,37 +68,15 @@ En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cual
   <img src="img/4.jpeg" width=200px>
   <img src="img/5.jpeg" width=200px>
   <img src="img/6.jpeg" width=200px>
+  <img src="fima.png" width="300px">
 </a>
 
-## Objetivos de aprendizaje
+## Testeos en prototipos
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
-usuario necesita.
-
-Dicho en palabras sencillas, aprenderás a:
-
-* Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
-* Pensar en las **necesidades de los usuarios** para crear historias de usuario.
-* Escribir y trabajar con **historias de usuario**, sus definiciones de
-  terminado (_definition of done_) en la organización y planificación de tu
-  trabajo.
-* Definir qué data y de qué forma mostrarla en el producto, basándote en
-  tu **entendimiento del usuario**.
-* Crear productos que sigan los **principios básicos de diseño visual** y
-  las **heurísticas de usabilidad**.
-* Iterar el diseño del producto, basándote en los resultados de los
-  **tests de usabilidad**.
-* Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
-* **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
-* **Manejar eventos del DOM** para permitir interacción con el usuario
-  (filtrado, ordenado, ...).
-* Entender los beneficios y complejidades de **trabajar en equipo** en un
-  ambiente de incertidumbre.
-
-## Parte Obligatoria
-
-Los criterios para considerar que has completado este proyecto son:
+En el siguiente punto veremos la interacción de los usuarios con la plataforma.
+<a href="">
+<embed src="img/testbajafide.mp4"></embed>
+<a>
 
 ### Definición del producto
 
