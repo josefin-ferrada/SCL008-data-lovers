@@ -20,18 +20,18 @@ Por ello, teniendo en cuenta las necesidades de nuestros jugadores, es important
 En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de multiple información del mundo Pokemon https://www.pokemon.com/es/pokedex/
 
 <a href="">
-  <img src="img/pokedesk.png" width=500px>
+  <img src="img/pokedesk.png" width=1000px>
 </a>
 
-La interfaz construida en este proyecto es la siguiente: [link](https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html).
+<br>La interfaz construida en este proyecto es la siguiente: [link](https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html).
 
 <a href="">
-  <img src="img/appdexi.JPG" width=500px>
+  <img src="img/appdexi.JPG" width=1000px>
 </a>
 
 
 
-En las siguientes imagenes se puede visualizar la base de datos con los 151 Pokemon de la region Kanto, la cual es usada en multiples plataformas del mundo Pokemon.
+<br>En las siguientes imagenes se puede visualizar la base de datos con los 151 Pokemon de la region Kanto, la cual es usada en multiples plataformas del mundo Pokemon.
 <a href="">
   <img src="img/pakage1.png" width=800px>
   <img src="img/pakage1.png" width=800px>
@@ -61,21 +61,23 @@ En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cual
 
 ## Prototipos de la Plataforma
 
+Prototipo de Baja Fidelidad: En el siguiente prototipo se puede observar el inicio de la propuesta de la Plataforma de filtrado de Pokemon, el cual contiene las características principales de esta.
 <a href="">
-  <img src="img/1.jpeg" width=1000px>
-  <img src="img/2.jpeg" width=1000px>
-  <img src="img/3.jpeg" width=1000px>
-  <img src="img/4.jpeg" width=1000px>
-  <img src="img/5.jpeg" width=1000px>
-  <img src="img/6.jpeg" width=1000px>
-  <img src="img/figma.png" width="900px">
+  <img src="img/4.jpeg" width=900px>
+  <img src="img/2.jpeg" width=900px>
+  <img src="img/1.jpeg" width=900px>
+  <img src="img/3.jpeg" width=900px>
+  <img src="img/5.jpeg" width=900px>
+
+<br>El prototipo en  Figma, es un prototipo de alta fidelidad, contiene los colores e interacción en la  
+  <img src="img/appdexi.JPG" width="900px">
 </a>
 
 ## Testeos en prototipos
 
 En el siguiente punto veremos la interacción de los usuarios con la plataforma.
 <a href="">
-<video src="img/test1.mp4" width=300 height=300></video>
+<video src="img/test1.mp4" height=300></video>
 <a>
 
 ### Definición del producto
