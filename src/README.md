@@ -66,23 +66,28 @@ En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cual
 
 Prototipo de Baja Fidelidad: En el siguiente prototipo se puede observar el inicio de la propuesta de la Plataforma de filtrado de Pokemon, el cual contiene las características principales de esta.
 <a href="">
-  <img src="img/4.jpeg" width=900px>
-  <img src="img/2.jpeg" width=900px>
-  <img src="img/1.jpeg" width=900px>
-  <img src="img/3.jpeg" width=900px>
-  <img src="img/5.jpeg" width=900px>
+  <img src="img/1bfide.jpeg" width=900px>
+  <img src="img/2bfide.jpeg" width=900px>
+  <img src="img/3bfide.jpeg" width=900px>
+  <img src="img/4bfide.jpeg" width=900px>
+  <img src="img/5bfide.jpeg" width=900px>
 </a>
 <br>
 <br>El prototipo en Alta fidelidad, contiene los colores e interacción en la plataforma.  
 <a href="">
   <img src="img/appdexi.JPG" width="900px">
+  <img src="img/3.JPG" width="900px">
+  <img src="img/4.JPG" width="900px">
+  <img src="img/5.JPG" width="900px">
+  <img src="img/6.JPG" width="900px">
+
 </a>
 
 ## Testeos y conclusiones en prototipos
 
 En el siguiente punto veremos la interacción de un usuario con el prototipo de baja fidelidad. 
 
-[![Watch the video](https://youtu.be/8uz1yxRw1iM)(https://youtu.be/8uz1yxRw1iM)]
+[![Watch the video](https://img.youtu.,com/vi/8uz1yxRw1iM/maxresdefault.jpg)](https://youtu.be/8uz1yxRw1iM)
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.useloom.com/share/cf9c814dc55f4468b19aef0567ceeb9c)
 
