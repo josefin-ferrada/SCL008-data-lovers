@@ -3,11 +3,11 @@
 ## Índice
 
 * [Introducción](#introducción)
-* [Necesidades de nuestros usuarios](#resumen-del-proyecto)
-* [Prototipos de la plataforma](#prototipo-de-la-plataforma)
+* [Necesidades de nuestros usuarios](#necesidades-de-nuestros-usuarios)
+* [Primeros pasos y organización](#primeros-pasos-y-organización)
+* [Prototipos de la plataforma](#prototipos-de-la-plataforma)
 * [Testeos y conclusiones en prototipos](#testeos-y-conclusiones-en-prototipo)
 * [Consideraciones técnicas](#consideraciones-técnicas)
-* [Primeros pasos y organización](#primeros-pasos-y-organización)
 * [Contenido de referencia](#contenido-de-referencia)
 * [Checklist](#checklist)
 
@@ -41,7 +41,6 @@ En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de mul
 </a>
 
 
-
 ## Necesidades de nuestros usuarios
 
 En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cuales fueron encuestados, y nos indicaron sus necesidades como jugadores habituales de Pokémon Go. 
@@ -60,6 +59,22 @@ En este proyecto **Nos basamos a las necesidades de nuestros usuarios** los cual
 
 <h4>HISTORIA 4: Yo como jugador habitual de pokémon me gustaría conocer la probabilidad de aparición de cada pokémon para poder atraparlos con más eficiencia</h4>
 <h5>Prouesta: En los detalles principales de características de cada Pokemon es necesario mostrar la hora de aparición para la captura de cada Pokémon</h5>
+
+### Definición del producto
+El producto se realizó viendo las necesidades de los usuarios por una plataforma de acceso directo a un sistema de filtrado y detalle precisos de cada Pokémon antes de cada batalla.
+
+
+### Diseño de la Interfaz de Usuario
+Este producto es una plataforma aliada al juego Pokemon Go, diseñada para jugadores de un rango en edad de 15 años en adelante, se busca mantener los detalles principales de Pokemon Go, ya que Dexi Poke es una herramienta perfecta para poder tener conocimiento de detalles de cada Pokémon de manera rápida y eficaz.
+
+## Primeros pasos y organización
+
+Organización Trello:
+https://trello.com/b/j22mt4eX/data-lover-pokemon
+
+<a href="">
+<img src="img/trello.png" width="900px">
+</a>
 
 
 ## Prototipos de la Plataforma
@@ -97,13 +112,6 @@ En el siguiente punto veremos la interacción de un usuario con el prototipo de 
 <img src="img/test4.jpeg" width="900px">
 </a>
 
-### Definición del producto
-El producto se realizó viendo las necesidades de los usuarios por una plataforma de acceso directo a un sistema de filtrado y detalle precisos de cada Pokémon antes de cada batalla.
-
-
-### Diseño de la Interfaz de Usuario
-Este producto es una plataforma aliada al juego Pokemon Go, diseñada para jugadores de un rango en edad de 15 años en adelante, se busca mantener los detalles principales de Pokemon Go, ya que Dexi Poke es una herramienta perfecta para poder tener conocimiento de detalles de cada Pokémon de manera rápida y eficaz.
-
 
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
@@ -133,11 +141,10 @@ https://zpl.io/aNP8XOd
 
 ## Consideraciones técnicas
 
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
+La lógica de este proyecto debe estar implementada completamente en JavaScript
+(ES6), HTML y CSS. En este proyecto NO se uso librerías o
 frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
-con la excepción de librerías para hacer gráficas (charts); ver
-[_Parte opcional_](#parte-opcional-hacker-edition) más arriba.
+con la excepción de librerías para hacer gráficas (charts)
 
 No se debe utilizar la _pseudo-variable_ `this`.
 
@@ -175,10 +182,13 @@ como toda la configuración de dependencias:
 8 directories, 17 files
 ```
 
-
 ## Contenido de referencia
-Organización Trello:
-https://trello.com/b/j22mt4eX/data-lover-pokemon
+
+### Investigación sobre producto
+
+* Investigación sobre Pokémon https://es.wikipedia.org/wiki/Pok%C3%A9mon
+* Información sobre pokedesk plataforma que contiene información sobre todos los Pokémon https://www.pokemon.com/es/pokedex/
+* Información sobre juego Pokémon Go, https://www.pokemongo.com/es-es/ y https://pokemongolive.com/es/
 
 
 ### Desarrollo Front-end
@@ -210,21 +220,21 @@ https://trello.com/b/j22mt4eX/data-lover-pokemon
 
 ## Checklist
 
-* [ ] Usa VanillaJS.
-* [ ] No hace uso de `this`.
-* [ ] Pasa linter (`npm pretest`)
-* [ ] Pasa tests (`npm test`)
-* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
+* [x] Usa VanillaJS.
+* [x] No hace uso de `this`.
+* [x] Pasa linter (`npm pretest`)
+* [x] Pasa tests (`npm test`)
+* [x] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
   lines y branches.
-* [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
-* [ ] Incluye historias de usuario en `README.md`.
-* [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
+* [x] Incluye _Definición del producto_ clara e informativa en `README.md`.
+* [x] Incluye historias de usuario en `README.md`.
+* [x] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
   `README.md`.
-* [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
+* [x] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
   en `README.md`.
-* [ ] Incluye link a Zeplin en `README.md`.
-* [ ] Incluye el listado de problemas que detectaste a través de tests de
+* [x] Incluye link a Zeplin en `README.md`.
+* [x] Incluye el listado de problemas que detectaste a través de tests de
   usabilidad en el `README.md`.
-* [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-* [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-* [ ] UI: Permite filtrar data en base a una condición.
+* [x] UI: Muestra lista y/o tabla con datos y/o indicadores.
+* [x] UI: Permite ordenar data por uno o más campos (asc y desc).
+* [x] UI: Permite filtrar data en base a una condición.
