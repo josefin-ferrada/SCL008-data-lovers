@@ -82,7 +82,7 @@ Prototipo de Baja Fidelidad: En el siguiente prototipo se puede observar el inic
 
 En el siguiente punto veremos la interacción de un usuario con el prototipo de baja fidelidad. 
 
-[![Watch the video](https://youtu.be/8uz1yxRw1iM)](https://youtu.be/8uz1yxRw1iM)
+[![Watch the video](https://www.youtube.com/watch?v=8uz1yxRw1iM&feature=youtu.be)](https://youtu.be/8uz1yxRw1iM)
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.useloom.com/share/cf9c814dc55f4468b19aef0567ceeb9c)
 
@@ -90,7 +90,7 @@ En el siguiente punto veremos la interacción de un usuario con el prototipo de 
 
 
 ### Definición del producto
-El producto se realizó viendo las necesidades de los usuarios por una plataforma de acceso directo a un sistema de filtrado y detalle precisos de cada Pokémon.
+El producto se realizó viendo las necesidades de los usuarios por una plataforma de acceso directo a un sistema de filtrado y detalle precisos de cada Pokémon antes de cada batalla.
 
 
 ### Diseño de la Interfaz de Usuario
