@@ -1,8 +1,10 @@
-
-
+header{
+  background-color: #3466AF;
+  color: white;
+  padding:1%;
+}
 
 body{
-
   background-image: url(https://i.ibb.co/xmkNgTt/Schermata-2017-11-27-alle-15-36-53-1024x546-copia.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,25 +21,18 @@ body{
   cursor: pointer;
 }
 
-
+.col-logo{
+  margin-left: 50px;
+  margin-top: 5px
+}
 .pokemonImage{
 
   background-image: url(https://i.ibb.co/N91cL4f/image.png);
   background-position: center;
   background-repeat: no-repeat;
  
-  height: 500px;
 }
 
-.titleWelcome{
-
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 24px
-  opacity:1;
-  height: 400px;
-
-}
 .font-title{
 
  font-family: 'Poppins', sans-serif;
@@ -53,8 +48,6 @@ body{
   height: 60%; 
   width: 90%;
   margin-top: 70px;
-
-
 
 }
 
@@ -204,8 +197,6 @@ label{
   width: 80%;
   padding-top: 2%;
 
-  
-  
 }
 
 .title-curious-data{
@@ -213,10 +204,9 @@ label{
   font-family: 'Lemon/Milk';
   font-size: 25px;
   text-align: center;
- padding-top: 2%;
- text-shadow: 1px 1px 1px #000000;
- 
- color: white; 
+  padding-top: 2%;
+  text-shadow: 1px 1px 1px #000000;
+  color: white; 
 
 
 }
@@ -225,6 +215,7 @@ label{
 
   padding-top: 7%;
   padding-bottom: 5%;
+
   
 
 }
@@ -268,7 +259,7 @@ label{
 }
 
 #title-movil{
-    display: none;
+  display: none;
   }
 
 .text-percent{
@@ -288,7 +279,48 @@ label{
   }
 
 
+
 @media only screen and (max-width: 600px) {
+  .background-kanto{ 
+  background-image: url(https://i.ibb.co/L6FW1kk/7edb4c36883633-572ca19d1da8f.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30%;
+  margin-left: 80px;
+
+
+  }
+  .background-clock{
+  background-image: url(https://i.ibb.co/M56gPXD/pokemonnn.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30%;
+  margin-left: 80px;
+  }
+  .percent{
+  
+  font-size: 20px;
+  text-align: center;
+ 
+
+  }
+  .text-percent{
+  
+  font-size: 20px;
+  text-align: center;
+  
+
+  }
+
+  .row-curious-data{
+
+  padding-top: 7%;
+  padding-bottom: 5%;
+  display: block;
+  
+  }
   #carouselExampleIndicators{
 
   display: none;
@@ -303,9 +335,9 @@ label{
 
   .banner-movil{
     background-image: url(https://i.ibb.co/N91cL4f/image.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 350px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 350px 200px;
     margin-top: 10px;
     height: 250px;
   }
@@ -315,11 +347,11 @@ label{
 
   }
 
-  .font-navi-resp
-  {
+  .font-navi-resp{
     font-size: 14px !important;
     text-align: left !important;
   }
+
   .pokemonImage{
     background-size: 350px 200px;
     margin-top: 10px;
@@ -364,7 +396,46 @@ label{
   .my-4{
   width: 250px !important;
 
+  }
+  .my-4-curious{
+
+  width: 200px;
+  }
+  .title-curious-data{
+
+  font-family: 'Lemon/Milk';
+  font-size: 15px;
+  text-align: center;
+  padding-top: 2%;
+  text-shadow: 1px 1px 1px #000000;
+  color: white; 
+  }
+  .subtititle-curious{
+   color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  padding-left:3%;
+  padding-right: 6%;
+  line-height: 22px;
+  }
+.row-curious-data{
+    
+  padding-top: 7%;
+  padding-bottom: 5%;
+  display: block;
+  
+  }
+  .container-curious-data{
+  margin-left: 90px;
+  border-radius: 5px;
+  background-color: rgba(0, 78, 73, 0.3);
+  height: 300px; 
+  width: 80%;
+  padding-top: 2%;
+  }
 }
+  
+
 
 @font-face {
   font-family: 'Lemon/Milk';
