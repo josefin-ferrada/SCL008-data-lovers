@@ -109,7 +109,7 @@ Este producto es una plataforma aliada al juego Pokemon Go, diseñada para jugad
 
 <h4>Estructura HTML</h4>
 <a href="">
-<img src="img/imagen.jpeg" width="900px">
+<img src="img/pantallahtml.png" width="900px">
 </a>
 
 <h4>Estructura CSS</h4>
@@ -122,6 +122,13 @@ Este producto es una plataforma aliada al juego Pokemon Go, diseñada para jugad
 <img src="img/pantallajs.JPG" width="900px">
 </a>
 
+## Prototipado Zeplin
+
+https://zpl.io/aNP8XOd
+
+<a href="">
+<img src="img/zeplin.png" width="900px">
+</a>
 
 
 ## Consideraciones técnicas
