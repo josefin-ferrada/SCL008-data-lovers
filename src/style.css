@@ -256,6 +256,7 @@ label {
     src: url('http://www.fontsaddict.com/fontface/lemonmilk.ttf');
 }
 
+
 @media only screen and (max-width: 600px) {
     #carouselExampleIndicators {
         display: none;
@@ -319,3 +320,4 @@ label {
         width: 250px !important;
     }
 }
+
