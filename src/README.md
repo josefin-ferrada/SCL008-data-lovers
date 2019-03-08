@@ -109,7 +109,7 @@ Este producto es una plataforma aliada al juego Pokemon Go, diseñada para jugad
 
 <h4>Estructura HTML</h4>
 <a href="">
-<img src="img/test4.jpeg" width="900px">
+<img src="img/imagen.jpeg" width="900px">
 </a>
 
 <h4>Estructura CSS</h4>
@@ -172,12 +172,6 @@ como toda la configuración de dependencias:
 ## Contenido de referencia
 Organización Trello:
 https://trello.com/b/j22mt4eX/data-lover-pokemon
-
-
-### Diseño de experiencia de usuario (User Experience Design)
-
-* Investigación con usuario
-* [Principios de diseño visual](https://lms.laboratoria.la/cohorts/scl-2019-01-bc-core-commoncore-scl008/courses/diseno-visual)
 
 
 ### Desarrollo Front-end
