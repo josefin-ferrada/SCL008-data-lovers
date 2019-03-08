@@ -82,7 +82,7 @@ Prototipo de Baja Fidelidad: En el siguiente prototipo se puede observar el inic
 
 En el siguiente punto veremos la interacción de un usuario con el prototipo de baja fidelidad. 
 
-[![Watch the video](https://www.youtube.com/watch?v=8uz1yxRw1iM&feature=youtu.be)](https://youtu.be/8uz1yxRw1iM)
+[![Watch the video][(https://www.youtube.com/watch?v=8uz1yxRw1iM&feature=youtu.be)](https://youtu.be/8uz1yxRw1iM)
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.useloom.com/share/cf9c814dc55f4468b19aef0567ceeb9c)
 
