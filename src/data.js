@@ -69,18 +69,13 @@ window.data = {
     },
 
     computeStats: (data, tipo) => {
-        let counter=0;
+        let counter = 0;
         data.forEach(function(element) {
-            if (element.type.includes(tipo)){
-                counter=counter+1;
+            if (element.type.includes(tipo)) {
+                counter = counter + 1;
             }
-        }); 
-        return Math.round((counter/150)*100) +"%";
-             
-
-             
-
-
-
+        });
+        return Math.round((counter / 151) * 100) + "%";
     }
+
 }
