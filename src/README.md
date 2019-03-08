@@ -139,48 +139,6 @@ https://zpl.io/aNP8XOd
 </a>
 
 
-## Consideraciones técnicas
-
-La lógica de este proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS. En este proyecto NO se uso librerías o
-frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
-con la excepción de librerías para hacer gráficas (charts)
-
-No se debe utilizar la _pseudo-variable_ `this`.
-
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias:
-
-```text
-.
-├── package.json
-├── README.md
-├── src
-│   ├── data
-│   │   ├── injuries
-│   │   │   ├── injuries.js
-│   │   │   └── injuries.json
-│   │   ├── lol
-│   │   │   ├── lol.js
-│   │   │   └── lol.json
-│   │   ├── pokemon
-│   │   │   ├── pokemon.js
-│   │   │   └── pokemon.json
-│   │   ├── steam
-│   │   │   ├── steam.js
-│   │   │   └── steam.json
-│   │   └── worldbank
-│   │       ├── worldbank.js
-│   │       └── worldbank.json
-│   ├── data.js
-│   ├── index.html
-│   ├── main.js
-│   └── style.css
-└── test
-    └── data.spec.js
-
-8 directories, 17 files
-```
 
 ## Contenido de referencia
 
@@ -190,24 +148,6 @@ como toda la configuración de dependencias:
 * Información sobre pokedesk plataforma que contiene información sobre todos los Pokémon https://www.pokemon.com/es/pokedex/
 * Información sobre juego Pokémon Go, https://www.pokemongo.com/es-es/ y https://pokemongolive.com/es/
 
-
-### Desarrollo Front-end
-
-* [Unidad de testing en curso de JavaScript en LMS](https://lms.laboratoria.la/cohorts/scl-2019-01-bc-core-commoncore-scl008/courses/javascript/11-testing/00-opening)
-* [Unidad de arreglos en curso de JavaScript en LMS](https://lms.laboratoria.la/cohorts/scl-2019-01-bc-core-commoncore-scl008/courses/javascript/04-arrays/01-arrays)
-* [Unidad de objetos en curso de JavaScript en LMS](https://lms.laboratoria.la/cohorts/scl-2019-01-bc-core-commoncore-scl008/courses/javascript/05-objects/01-objects)
-* [Unidad de funciones en curso de JavaScript en LMS](https://lms.laboratoria.la/cohorts/scl-2019-01-bc-core-commoncore-scl008/courses/javascript/03-functions/00-opening)
-* [Unidad de DOM en curso de Browser JavaScript en LMS](https://lms.laboratoria.la/cohorts/scl-2019-01-bc-core-commoncore-scl008/courses/browser/02-dom/00-opening)
-* [Array en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
-* [Array.sort en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort)
-* [Array.map en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
-* [Array.filter en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/filter)
-* [Array.reduce en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/reduce)
-* [Array.forEach en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
-* [Object.keys en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/keys)
-* [Object.entries en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/entries)
-* [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-* [json.org](https://json.org/json-es.html)
 
 ### Herramientas
 
