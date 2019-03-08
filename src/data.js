@@ -68,24 +68,14 @@ window.data = {
 
     },
 
-    /*computeStats: (data, tipo) => {
+    computeStats: (data, tipo) => {
+        let counter = 0;
+        data.forEach(function(element) {
+            if (element.type.includes(tipo)) {
+                counter = counter + 1;
+            }
+        });
+        return Math.round((counter / 151) * 100) + "%";
+    }
 
-        En la region del Kanto que porcentaje de pokemones hay segun su tipo:
-        tipo=Select tipo:
-         
-        let counter=0;
-         data.forEach(function(element) {
-             if (tipo===element)
-             {
-                 counter=counter+1;
-             }
-            } 
-        let perType=(counter/150)*100;
-             
-
-             
-
-
-
-    },*/
 }

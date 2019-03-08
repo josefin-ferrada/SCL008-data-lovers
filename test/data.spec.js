@@ -22,6 +22,7 @@ const pokemonData = {
 }
 describe('data', () => {
 
+
     it('debería ser un objeto', () => {
         assert.equal(typeof data, 'object');
     });
@@ -54,3 +55,4 @@ describe('data', () => {
         });
     });
 });
+

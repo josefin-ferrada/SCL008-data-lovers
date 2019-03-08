@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="https://i.ibb.co/t31sMqg/Favball.png" sizes="32x32">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans|Raleway:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans|Raleway:400,600|Josefin+Sans|Poppins|Source+Sans+Pro|ZCOOL+QingKe+HuangYou" rel="stylesheet">
 </head>
 
 <body>
@@ -20,15 +20,15 @@
 
             </div>
             <div class="col md-8">
-                <ul class="nav justify-content-left navi">
+                <ul class="nav justify-content-left navi nav">
                     <li class="nav-item">
-                        <button class="btn btn-primary btn-lg font-nav margin btn-color font-navi-resp" id="search">Busca tu Pokémon</button>
+                        <button class="btn btn-primary btn-lg font-nav margin btn-color font-navi-resp active" id="search">Busca tu Pokémon</button>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-primary btn-lg font-nav margin btn-color font-navi-resp">Datos Curiosos</button>
+                        <button class="btn btn-primary btn-lg font-nav margin btn-color font-navi-resp active" id="curius-data">Datos Curiosos</button>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-primary btn-lg font-nav btn-color font-navi-resp" data-toggle="modal" data-target="#exampleModalCenter">Instrucciones</button>
+                        <button class="btn btn-primary btn-lg font-nav btn-color font-navi-resp active" data-toggle="modal" data-target="#exampleModalCenter">Instrucciones</button>
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -41,7 +41,13 @@
                                     </div>
                                     <div class="modal-body">
                                         <p>
-                                            Primero debes seleccionar tipo de Pokémon Luego seleccionar como deseas que tus Pokémon se ordenen Finalmente seleccionar orden ascendente o descendente
+
+
+                                            Para buscar tu Pokémon haz click en el botón "Busca tu pokémon", allí podrás seleccionar tu tipo favorito. Además puedes ordenarlo de forma ascendente o descendente.
+                                        </p>
+                                        <p>
+                                            
+                                            Para ver los datos curiosos haz click en el boton "Datos curiosos", allí podrás conocer el porcentaje de pokemones según el tipo que prefieras.
                                         </p>
                                     </div>
                                     <div class="modal-footer">
@@ -60,12 +66,11 @@
 
     </header>
     <section id="welcome">
+       
 
+        
 
     </section>
-    <footer>
-
-    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

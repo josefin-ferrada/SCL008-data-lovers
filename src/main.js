@@ -1,19 +1,38 @@
 const pokemonData = window.POKEMON.pokemon;
 let searchBtn = document.getElementById('search');
 let logoInit = document.getElementById('logo-dexi');
-let firstScreen = '\
-                  <div class="row margin-welcome" >\
-                    <div class="col-md-6" >\
-                      <div class="pokemonImage" id="welcomeContainer" >\
+let curiousBtn= document.getElementById('curius-data');
+let firstScreen = '<div id="carouselExampleIndicators" class="carousel slide back-movil" data-ride="carousel">\
+                      <ol class="carousel-indicators">\
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
+                        </ol>\
+                      <div class="carousel-inner">\
+                        <div class="carousel-item active ">\
+                          <img class="d-block mx-auto banner-image" id="banner1"  src="http://img.fenixzone.net/i/DlkVGPF.png" alt="First slide">\
+                        </div>\
+                        <div class="carousel-item">\
+                          <img class="d-block mx-auto" style="width: 1000px; height:500px;" src="http://img.fenixzone.net/i/T4OjDSC.png" alt="Second slide">\
+                        </div>\
+                        </div>\
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">\
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
+                        <span class="sr-only">Previous</span>\
+                      </a>\
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">\
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>\
+                          <span class="sr-only">Next</span>\
+                        </a>\
                       </div>\
-                    </div>\
-                    <div class="col-md-6" >\
-                      <div class="containerTitle">\
-                        <p class="font-title">BIENVENID@ A TU GUÍA POKÉMON</p>\
-                        <p class="font-subtitle">Comienza la busqueda de tu Pokémon favorito, tenemos todos sus detalles para que seas el mejor maestro Pokémon</p>\
-                      </div>\
-                    </div>\
-                    </div>';
+                      <div class= "banner-movil" id="movil">\
+                              </div>\
+                              <div class="col-md-6" >\
+                        <div class="containerTitle" id="title-movil">\
+                          <p class="font-title">BIENVENID@ A TU GUÍA POKÉMON</p>\
+                          <hr class="my-4">\
+                          <p class="font-subtitle">En DexiPoke encontrarás todos los pokémon de la región Kanto</p>\
+                        </div>';
+
 
 let secondScreen = '\
                     <form>\
@@ -23,10 +42,15 @@ let secondScreen = '\
                           <select class="form-control" id="select-type" >\
                             <option value= "none">Ninguno</option>\
                             <option value="Poison">Poison</option>\
-                            <option value="Grass"> Grass </option>\
-                            <option value="Fire"> Fire</option>\
-                            <option value="Electric"> Electric</option>\
-                            <option value="Water"> Water</option>\
+                            <option value="Grass">Grass </option>\
+                            <option value="Fire">Fire</option>\
+                            <option value="Electric">Electric</option>\
+                            <option value="Water">Water</option>\
+                            <option value="Psychic">Psychic</option>\
+                            <option value="Dragon">Dragon </option>\
+                            <option value="Flying">Flying</option>\
+                            <option value="Ice">Ice</option>\
+                            <option value="Rock">Rock</option>\
                           </select>\
                         </div>\
                         <div class="form-group col-md-3">\
@@ -52,18 +76,48 @@ let secondScreen = '\
                     </form>\
                     <div class="row">\
                       <div class="col-md-12">\
-                        <div class="card-group">\
-                          <div class="row" id="id1">\
-                            <!-- Clase Dispositivo Medida\
-                            col-xs- móvil < 768 px\
-                            col-sm- tablets >= 768 px\
-                            col-md- desktop >= 992 px\
-                            col-lg- Desktop más grande  >= 1200 px -->\
+                        <div class="card-group" id="id1">\
+                         </div>\
+                      </div>\
+                    </div>';
+
+let thirdCuriousData = '\
+                        <div class="row row-curious-data">\
+                        <div class="col-4 background-kanto">\
+                          </div>\
+                           <div class="col-7 container-curious-data">\
+                            <p class="title-curious-data">DATOS CURIOSOS DE POKÉMONES DE LA REGIÓN KANTO</p>\
+                            <hr class="my-4-curious">\
+                            <p class="subtititle-curious">Aquí encontrarás estadisticas sobre tipo y peso de tus pokémones preferidos, conocer esta información te hará el mas culto maestro pokémon!</p>\
                           </div>\
                         </div>\
-                      </div>\
-                    </div>\
-                  ';
+                        <div class="row row-curious-data">\
+                          <div class="col-4 background-clock" id="percent">\
+                          </div>\
+                          <div class="col-7 container-curious-data">\
+                            <p class="title-curious-data">¿Quieres saber que porcentaje de pokémon según su tipo hay en la región Kanto?</p>\
+                            <hr class="my-4-curious">\
+                            <label for="exampleFormControlSelect1">Seleccione el tipo de Pokémon:</label>\
+                            <select class="form-control" id="select-type-curious" >\
+                            <option value= "none">Ninguno</option>\
+                            <option value="Poison">Poison</option>\
+                            <option value="Grass"> Grass </option>\
+                            <option value="Fire"> Fire</option>\
+                            <option value="Electric"> Electric</option>\
+                            <option value="Water"> Water</option>\
+                            <option value="Ice"> Ice</option>\
+                            <option value="Flying"> Flying</option>\
+                            <option value="Psychic"> Psychic</option>\
+                            <option value="Dragon"> Dragon</option>\
+                            <option value="Rock"> Rock</option>\
+                            <option value="Normal"> Normal</option>\
+                            <option value="Fighting"> Fighting</option>\
+                            <option value="Ghost"> Ghost</option>\
+                            <option value="Ground"> Ground</option>\
+                          </select>\
+                          </div>\
+                        </div>';
+
 
 window.onload = document.getElementById('welcome').innerHTML = firstScreen;
 
@@ -71,11 +125,32 @@ function showPokemonCard(dataToPrint) {
     let text = ''; // comienza con string vacío para que por cada iteracion se rellene
     let cardContainer = document.getElementById("id1");
     dataToPrint.forEach(function(element) { //for each para que por cada uno saque los datos 
-
+      let multipliers;
+    let caramels;
+    if (element.multipliers== null) {
+      multipliers = "-";
+    }
+    else{
+      multipliers = element.multipliers;
+    }
+    if (element.candy_count == undefined) {
+      caramels = "-"
+    }
+    else{
+      caramels = element.candy_count;
+    }
         text += '\
-      <div class="col-md-2">\
+                <div class="col-md-2">\
                  <div class="card" data-toggle="modal" data-target="#exampleModal' + element.id + '">\
-                <div class="modal fade" id="exampleModal' + element.id + '" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">\
+                    <h6 class="card-text">' + element.num + '</h6>\
+                    <img src="' + element.img + '" class="card-img-top card-img-poke" alt="...">\
+                    <div class="card-body">\
+                    <h5 class="card-title">' + element.name + '</h5>\
+                    <p class="card-text">' + element.type + '</p>\
+                    </div>\
+                </div>\
+              </div>\
+              <div class="modal fade" id="exampleModal' + element.id + '" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">\
                   <div class="modal-dialog" role="document">\
                     <div class="modal-content">\
                       <div class="modal-header">\
@@ -94,7 +169,7 @@ function showPokemonCard(dataToPrint) {
                        </tr>\
                        <tr>\
                        <th class="card-text">Caramelos para evolucionar:</th>\
-                       <th class="card-text">' + element.candy_count + '</th>\
+                       <th class="card-text">' + caramels + '</th>\
                        </tr>\
                        <tr>\
                        <th class="card-text">Huevos:</th>\
@@ -110,7 +185,7 @@ function showPokemonCard(dataToPrint) {
                        </tr>\
                        <tr>\
                        <th class="card-text">Multipliers:</th>\
-                       <th class="card-text">' + element.multipliers + '</th>\
+                       <th class="card-text">' + multipliers + '</th>\
                        </tr>\
                        <tr>\
                        <th class="card-text">Debilidades:</th>\
@@ -118,21 +193,10 @@ function showPokemonCard(dataToPrint) {
                       </table>\
                       </div>\
                       <div class="modal-footer">\
-                        <button type="button" class="btn btn-primary">Cerrar</button>\
                       </div>\
                     </div>\
                   </div>\
-                      </div>\
-                      <h6 class="card-text">' + element.num + '</h6>\
-                <img src="' + element.img + '" class="card-img-top card-img-poke" alt="...">\
-                <div class="card-body">\
-                  <h5 class="card-title">' + element.name + '</h5>\
-                  <p class="card-text">' + element.type + '</p>\
-                </div>\
-                </div>\
-            </div>\
-\
-    '
+                      </div>';
     });
 
     cardContainer.innerHTML = text;
@@ -191,3 +255,20 @@ logoInit.addEventListener('click', () => {
     document.getElementById('welcome').innerHTML = firstScreen;
 
 });
+
+curiousBtn.addEventListener('click', () =>{
+    document.getElementById('welcome').innerHTML = '';
+    document.getElementById('welcome').innerHTML = thirdCuriousData;
+
+    let selectCurious = document.getElementById('select-type-curious');
+    selectCurious.addEventListener('change', () =>{
+      let valueSelect = selectCurious.value;
+      let result;
+      result = window.data.computeStats(pokemonData, valueSelect);
+      document.getElementById('percent').innerHTML= '<p class="percent">'+result+'</p>\
+                                                      <p class="text-percent"> de tipo '+valueSelect+'</p>';
+    });
+
+});
+
+
