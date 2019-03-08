@@ -26,7 +26,7 @@ En el siguiente enlace podrás ver la plataforma Pokedesk, una plataforma de mul
   <img src="img/pokedesk.png" width=1000px>
 </a>
 
-<br>La interfaz construida en este proyecto es la siguiente: [link](https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html).
+### <br>La interfaz construida en este proyecto es la siguiente: [link](https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html).
 
 <a href="">
   <img src="img/appdexi.JPG" width=1000px>
