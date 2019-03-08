@@ -6,7 +6,7 @@
 * [Necesidades de nuestros usuarios](#necesidades-de-nuestros-usuarios)
 * [Primeros pasos y organización](#primeros-pasos-y-organización)
 * [Prototipos de la plataforma](#prototipos-de-la-plataforma)
-* [Testeos y conclusiones en prototipos](#testeos-y-conclusiones-en-prototipo)
+* [Testeos y conclusiones en prototipos](#Testeos-y-conclusiones-en-prototipos)
 * [Consideraciones técnicas](#consideraciones-técnicas)
 * [Contenido de referencia](#contenido-de-referencia)
 * [Checklist](#checklist)
