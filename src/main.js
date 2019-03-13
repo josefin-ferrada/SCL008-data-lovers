@@ -85,9 +85,7 @@ let thirdCuriousData = '\
                         <div class="col-4 background-kanto">\
                           </div>\
                            <div class="col-7 container-curious-data">\
-                            <p class="title-curious-data">DATOS CURIOSOS DE POKÉMONES DE LA REGIÓN KANTO</p>\
-                            <hr class="my-4-curious">\
-                            <p class="subtititle-curious">Aquí encontrarás estadisticas sobre tipo y peso de tus pokémones preferidos, conocer esta información te hará el mas culto maestro pokémon!</p>\
+                            <div id="chart_div"></div>\
                           </div>\
                         </div>\
                         <div class="row row-curious-data">\
@@ -116,6 +114,9 @@ let thirdCuriousData = '\
                             </select>\
                           </div>\
                         </div>';
+
+
+
 
 
 window.onload = document.getElementById('welcome').innerHTML = firstScreen;
@@ -246,13 +247,46 @@ curiousBtn.addEventListener('click', () =>{
   document.getElementById('welcome').innerHTML = '';
   document.getElementById('welcome').innerHTML = thirdCuriousData;
   let selectCurious = document.getElementById('select-type-curious');
-  
+
+ 
   selectCurious.addEventListener('change', () =>{
     let valueSelect = selectCurious.value;
     let result;
     result = window.data.computeStats(pokemonData, valueSelect);
     document.getElementById('percent').innerHTML= '<p class="percent">'+result+'</p>\
                                                     <p class="text-percent"> de tipo '+valueSelect+'</p>';
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          [valueSelect, result],
+          ['Otros', 151-result],
+      
+        ]);
+
+        // Set chart options
+        var options = {'title':'How Much Pizza I Ate Last Night',
+                       'width':400,
+                       'height':300,
+                       'backgroundColor': 'transparent',
+                      is3D: true};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+  
   });
 });
 
