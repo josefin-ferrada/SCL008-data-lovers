@@ -38,9 +38,8 @@ let secondScreen = '\
                     <form>\
                       <div class="form-row margin-select">\
                         <div class="form-group col-md-3">\
-                          <label for="exampleFormControlSelect1">Seleccione el tipo de Pokémon:</label>\
                           <select class="form-control" id="select-type" >\
-                            <option value= "none">Ninguno</option>\
+                            <option value= "none">Seleccione el tipo de Pokémon</option>\
                             <option value="Poison">Poison</option>\
                             <option value="Grass">Grass </option>\
                             <option value="Fire">Fire</option>\
@@ -54,17 +53,15 @@ let secondScreen = '\
                           </select>\
                         </div>\
                         <div class="form-group col-md-3">\
-                          <label for="exampleFormControlSelect1">Seleccione tipo de organización:</label>\
                           <select class="form-control" id="select-by" >\
-                            <option value= "none">Ninguno</option>\
+                            <option value= "none">Seleccione tipo de organización</option>\
                             <option value="name">Nombre</option>\
                             <option value="id">Número</option>\
                           </select>\
                         </div>\
                         <div class="form-group col-md-3">\
-                          <label for="order">Seleccione organización:</label>\
                           <select class="form-control" id="order" >\
-                            <option value="none">Ninguno</option>\
+                            <option value="none">Seleccione organización</option>\
                             <option value="asc">Ascendente</option>\
                             <option value="desc">Descendente</option>\
                           </select>\
@@ -80,23 +77,12 @@ let secondScreen = '\
                          </div>\
                       </div>\
                     </div>';
-let thirdCuriousData = '\
-                        <div class="row row-curious-data">\
-                        <div class="col-4 background-kanto">\
-                          </div>\
-                           <div class="col-7 container-curious-data">\
-                            <div id="chart_div"></div>\
-                          </div>\
-                        </div>\
-                        <div class="row row-curious-data">\
-                          <div class="col-4 background-clock" id="percent">\
-                          </div>\
-                          <div class="col-7 container-curious-data">\
+let thirdCuriousData = '<div class="row row-curious-data container-curious-data">\
+                          <div class="col-6 ">\
                             <p class="title-curious-data">¿Quieres saber que porcentaje de pokémon según su tipo hay en la región Kanto?</p>\
                             <hr class="my-4-curious">\
-                            <label for="exampleFormControlSelect1">Seleccione el tipo de Pokémon:</label>\
                             <select class="form-control" id="select-type-curious" >\
-                              <option value= "none">Ninguno</option>\
+                              <option value= "none">Seleccione el tipo de Pokémon</option>\
                               <option value="Poison">Poison</option>\
                               <option value="Grass"> Grass </option>\
                               <option value="Fire"> Fire</option>\
@@ -112,6 +98,12 @@ let thirdCuriousData = '\
                               <option value="Ghost"> Ghost</option>\
                               <option value="Ground"> Ground</option>\
                             </select>\
+                          </div>\
+                          <div class="col-3">\
+                            <div id="chart_div"></div>\
+                          </div>\
+                          <div class="col-3 container-percent">\
+                            <div id="percent"></div>\
                           </div>\
                         </div>';
 
@@ -151,7 +143,7 @@ function showPokemonCard(dataToPrint) {
                 </div>\
                 <div class="modal fade" id="exampleModal' + element.id + '" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">\
                   <div class="modal-dialog" role="document">\
-                    <div class="modal-content">\
+                    <div class="modal-content table">\
                       <div class="modal-header">\
                         <h5 class="modal-title" id="exampleModalLabel">' + element.name + '</h5>\
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
@@ -227,16 +219,17 @@ searchBtn.addEventListener('click', () => {
           showPokemonCard(resultFilter);
 
       }
-      cleanBtn.addEventListener('click', (event) => {
+    });
+  });
+  cleanBtn.addEventListener('click', (event) => {
         event.preventDefault();
         document.getElementById('select-type').value = "none";
         document.getElementById('select-by').value = "none";
         document.getElementById('order').value = "none";
         showPokemonCard(pokemonData);
       });
-    });
-  });
 });
+
 
 logoInit.addEventListener('click', () => {
   document.getElementById('welcome').innerHTML = '';
@@ -276,10 +269,13 @@ curiousBtn.addEventListener('click', () =>{
         ]);
 
         // Set chart options
-        var options = {'title':'How Much Pizza I Ate Last Night',
+        var options = {
+                       
                        'width':400,
                        'height':300,
+                       'legend': 'bottom',
                        'backgroundColor': 'transparent',
+                       pieSliceText: 'label',
                       is3D: true};
 
         // Instantiate and draw our chart, passing in some options.

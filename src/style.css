@@ -5,7 +5,7 @@ header{
 }
 
 body{
-  background-image: url(https://i.ibb.co/xmkNgTt/Schermata-2017-11-27-alle-15-36-53-1024x546-copia.png);
+  background-image: url(img/fondo.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
@@ -13,12 +13,17 @@ body{
   overflow-x: hidden
 }
 
-.logo{
-  background-image: url(https://i.ibb.co/9YtfB7n/Dexii-Poke.png)!important;
-  background-size: 260px 100px;
-  background-position: left;
-  background-repeat: no-repeat;
+.background-blue{
+   background-color: #3466AF !important;
+}
+#logo-dexi{
+  
+  
   cursor: pointer;
+}
+
+#logo-dexi:hover{
+  transform: scale(1.02);
 }
 
 .col-logo{
@@ -94,7 +99,7 @@ button:hover{
 }
 
 #clean{
-  margin-top: 30px;
+  margin-top: 0px;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -113,6 +118,7 @@ button:hover{
 
 .card:hover{
   box-shadow: 0 0 15px rgba(0,0,0,.5);
+  transform: scale(1.02);
 }
 
 
@@ -131,7 +137,7 @@ button:hover{
   border-radius: 20px;
   background-color: #3466AF;
   opacity: 0.85;
-  filter: alpha(opacity=80);
+  filter: alpha(opacity=50);
   color:white;
 }
 .card-img-modal{
@@ -147,9 +153,13 @@ table {
 th, td {
   padding: 6px;
   text-align: left;
-  border-bottom: 0.5px solid #ddd;
+  
   font-weight: normal;
 
+}
+
+.centrar{
+  text-align: center !important;
 }
 
 h6{
@@ -157,10 +167,7 @@ h6{
 }
 
 
-nav{
-  width: 100%;
-  display: inherit;
-}
+
 
 label{
 
@@ -183,7 +190,7 @@ label{
 
 .my-4-curious{
 
-  width: 700px;
+  width: 400px;
 }
 
 .margin-welcome{
@@ -191,11 +198,9 @@ label{
 }
 
 .container-curious-data{
-  border-radius: 5px;
-  background-color: rgba(0, 78, 73, 0.3);
-  height: 320px; 
-  width: 80%;
-  padding-top: 2%;
+  
+  
+  padding: 4%;
 
 }
 
@@ -204,7 +209,7 @@ label{
   font-family: 'Lemon/Milk';
   font-size: 25px;
   text-align: center;
-  padding-top: 2%;
+  padding-top: 4%;
   text-shadow: 1px 1px 1px #000000;
   color: white; 
 
@@ -213,8 +218,13 @@ label{
 
 .row-curious-data{
 
-  padding-top: 7%;
-  padding-bottom: 5%;
+border-radius: 5px;
+  background-color: rgba(0, 78, 73, 0.3);
+  width: 97%;
+  height: 400px;
+  margin-top: 80px;
+  margin-left: 20px;
+
 
   
 
@@ -264,7 +274,7 @@ label{
 
 .text-percent{
   font-family: 'Lemon/Milk';
-  font-size: 30px;
+  font-size: 20px;
   text-align:center;
   color:white;
 
@@ -272,10 +282,14 @@ label{
 
   .percent{
   font-family: 'Lemon/Milk';
-  font-size: 50px;
-  text-align:center;
+  font-size: 30px;
+  text-align: center;
   color:white;
 
+  }
+
+  .container-percent{
+    margin-top: 90px;
   }
 
 
